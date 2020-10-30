@@ -12,3 +12,9 @@ The content will be structrued into two main parts:
 
 * The first part will be the basic knowledge about C/C++, including pointers, arrays, STL, file IO, etc.
 * The second part will be the data structures and algorithms. We will try to implement Trees, Linked List, etc together.
+
+## Code
+
+You can find the corresponding code at our [GitHub](https://github.com/Yaonotes/C-Lab).
+
+## Credits
