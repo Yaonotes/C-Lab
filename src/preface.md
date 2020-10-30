@@ -18,3 +18,5 @@ The content will be structrued into two main parts:
 You can find the corresponding code at our [GitHub](https://github.com/Yaonotes/C-Lab).
 
 ## Credits
+
+* Author: [Xiaozhe Yao](https://yaonotes.org)
