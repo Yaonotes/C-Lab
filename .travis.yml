@@ -1,5 +1,6 @@
 language: rust
-sudo: false
+os: linux
+dist: xenial
 
 cache:
   - cargo
@@ -13,13 +14,14 @@ before_script:
   - cargo install-update -a
 
 script:
-  - mdbook build path/to/mybook && mdbook test path/to/mybook
+  - mdbook build ./ && mdbook test ./
 
 deploy:
+    strategy: git
     provider: pages
-    skip-cleanup: true
-    github-token: $GITHUB_TOKEN
-    local-dir: path/to/mybook/book
-    keep-history: false
+    skip_cleanup: true
+    token: $GITHUB_TOKEN
+    local_dir: ./book
+    keep_history: false
     on:
       branch: master
