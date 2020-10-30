@@ -1,0 +1,6 @@
+[book]
+authors = ["Xiaozhe Yao"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The C Lab for Data Structures and Algorithms"
