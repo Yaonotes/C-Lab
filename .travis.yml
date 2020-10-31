@@ -18,6 +18,7 @@ script:
 
 deploy:
     strategy: git
+    fqdn: clab.yaonotes.org
     provider: pages
     skip_cleanup: true
     token: $GITHUB_TOKEN
