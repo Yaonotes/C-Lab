@@ -4,7 +4,7 @@
 
 # C/C++ Prerequisite
 
-- [Compiler](./compiler.md)
+- [Compiler](./prerequisite/compiler.md)
 
 - [Input, Output and Files]()
 
