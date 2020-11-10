@@ -18,7 +18,7 @@ Assume we wrote a simple program that only prints the `Hello World` to the conso
 
 #### **`simple.c`**
 ``` c
-{{#include ../code/compiler/simple.c}}
+{{#include ../../code/compiler/simple.c}}
 ```
 
 
@@ -37,15 +37,15 @@ After compiling the single source file, you may want to know what if there are m
 
 #### **`main.c`**
 ``` c
-{{#include ../code/compiler/main.c}}
+{{#include ../../code/compiler/main.c}}
 ```
 #### **`header.h`**
 ``` c
-{{#include ../code/compiler/header.h}}
+{{#include ../../code/compiler/header.h}}
 ```
 #### **`header.c`**
 ``` c
-{{#include ../code/compiler/header.c}}
+{{#include ../../code/compiler/header.c}}
 ```
 
 If there are multiple files, we must explicitly tell the compiler where to look for other source files. In this case, our mail program is defined by `main.c` and it calls a function defined and implemented in `header.c`. We could run 
