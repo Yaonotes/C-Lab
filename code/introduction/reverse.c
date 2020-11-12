@@ -32,5 +32,3 @@ int main()
     reverse(s);
     return 0;
 }
-// Linux, Mac: gcc task1.c -o task1; ./task1
-// Windows: gcc task1.c -o task1; task1

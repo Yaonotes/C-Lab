@@ -27,5 +27,3 @@ int main() {
 	}
     return 0;
 }
-// Linux, Mac: gcc task2.c -o task2; ./task2
-// Windows: gcc task2.c -o task2; task2
