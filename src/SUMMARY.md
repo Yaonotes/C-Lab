@@ -6,6 +6,8 @@
 
 - [Compiler](./prerequisite/compiler.md)
 
+- [Strings](./prerequisite/strings.md)
+
 - [Input, Output and Files]()
 
 - [Arrays]()
